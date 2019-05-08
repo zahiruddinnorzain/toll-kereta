@@ -8,7 +8,8 @@ video_src = 'dataset/video2.avi'
 #video_src = 'dataset/video2.avi'
 font = cv2.FONT_HERSHEY_SIMPLEX # font tulisan
 
-cap = cv2.VideoCapture(video_src)
+#cap = cv2.VideoCapture(video_src)
+cap = cv2.VideoCapture(0)
 car_cascade = cv2.CascadeClassifier(cascade_src)
 
 while True:
