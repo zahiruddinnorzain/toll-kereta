@@ -5,7 +5,7 @@ print(cv2.__version__)
 
 cascade_src = 'cascade/cars.xml'
 cascade_src2 = 'cascade/cascade-old.xml'
-video_src = 'dataset/video2.avi'
+video_src = 'dataset/video4.mp4'
 #video_src = 'dataset/video2.avi'
 font = cv2.FONT_HERSHEY_SIMPLEX # font tulisan
 
