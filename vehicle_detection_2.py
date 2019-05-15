@@ -4,13 +4,13 @@ import cv2
 print(cv2.__version__)
 
 cascade_src = 'cascade/cars.xml'
-cascade_src2 = 'cascade/cascade-old.xml'
-video_src = 'dataset/video4.mp4'
+cascade_src2 = 'cascade/Bus_front.xml'
+video_src = 'dataset/video3.mp4'
 #video_src = 'dataset/video2.avi'
 font = cv2.FONT_HERSHEY_SIMPLEX # font tulisan
 
-#cap = cv2.VideoCapture(video_src)
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(video_src)
+#cap = cv2.VideoCapture(0)
 car_cascade = cv2.CascadeClassifier(cascade_src)
 bus_cascade = cv2.CascadeClassifier(cascade_src2)
 
