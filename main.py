@@ -2,7 +2,9 @@
 # 16 May 2019, bo
 
 import cv2
-print(cv2.__version__)
+import sys
+print("Python = " + sys.version)
+print("OpenCV = " + cv2.__version__)
 
 
 # Load file
