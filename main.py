@@ -10,7 +10,7 @@ print("OpenCV = " + cv2.__version__)
 # Load file
 cascade_src = 'cascade/cars.xml'
 cascade_src2 = 'cascade/Bus_front.xml'
-video_src = 'dataset/video6.MOV'
+video_src = 'dataset/video8.MOV'
 
 # Font
 font = cv2.FONT_HERSHEY_SIMPLEX
