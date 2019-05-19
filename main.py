@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 16 May 2019, bo
+# 17 May 2019, bo
 
 import cv2
 import sys
@@ -16,8 +16,8 @@ video_src = 'dataset/video8.MOV'
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 # Type of video capture [0 for stream]
-cap = cv2.VideoCapture(video_src)
-# cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture(video_src)
+cap = cv2.VideoCapture(0)
 
 
 # code start
